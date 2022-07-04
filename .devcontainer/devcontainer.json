@@ -1,0 +1,22 @@
+{
+    "name": "bcli",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "extensions": [
+		"editorconfig.editorconfig",
+		"golang.go",
+		"ms-azuretools.vscode-docker",
+		"JohnJane.remove-console"
+	],
+    "settings": {
+        "go.formatTool": "goimports"
+    },
+    "vimExtensions": [
+        "fatih/vim-go"
+    ],
+    "vimSettings": [
+	    "let g:go_fmt_command = 'goimports'"
+    ],
+    "workspaceFolder": "/workspace",
+    "shell": "fish"
+}
